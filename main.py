@@ -32,12 +32,12 @@ class Main:
         elif page == "🏁 PEGI Feature Importances":
             st.title("PEGI Feature Importance Visualization")
             st.write("Below is the feature importance graph for PEGI game rating classification.")
-            st.image("kmeans_model_RandomForest_pegi.png", caption="Top EEG Features for PEGI Classification", use_container_width=True)
+            st.image("model_results/kmeans_model_RandomForest_pegi.png", caption="Top EEG Features for PEGI Classification", use_container_width=True)
 
         elif page == "📊 ESRB Feature Importances":
             st.title("ESRB Feature Importance Visualization")
             st.write("Below is the feature importance graph for ESRB game rating classification.")
-            st.image("kmeans_model_RandomForest_esrb.png", caption="Top EEG Features for ESRB Classification", use_container_width=True)
+            st.image("model_results/kmeans_model_RandomForest_esrb.png", caption="Top EEG Features for ESRB Classification", use_container_width=True)
 
 
 
