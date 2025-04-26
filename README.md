@@ -70,17 +70,17 @@ Use the **sidebar menu** to navigate between:
 ## 🖼️ Demo Screenshots
 
 ### 🟢 Menu Page (Project Overview):
-![Menu Demo](ss1.png)
+![Menu Demo](./media/ss1.png)
 
 ---
 
 ### 🟡 PEGI Feature Importance Visualization:
-![PEGI Prediction](ss2.png)
+![PEGI Prediction](./media/ss2.png)
 
 ---
 
 ### 🔵 ESRB Feature Importance Visualization:
-![ESRB Prediction](ss3.png)
+![ESRB Prediction](./media/ss3.png)
 
 ---
 
@@ -89,14 +89,11 @@ Use the **sidebar menu** to navigate between:
 ```
 ├── main.py                                # Streamlit app (visualization)
 ├── game_rating_classification.py          # Machine learning logic and model training
-├── kmeans_model_RandomForest_pegi.png     # PEGI prediction feature importance visualization
-├── kmeans_model_RandomForest_esrb.png     # ESRB prediction feature importance visualization
+├── model_results                          # Each feature's predicted visualization
 ├── 04-EEG-Based Game Rating Classification (PEGI & ESRB).xlsx  # Input data file
 ├── requirements.txt                       # Required Python packages
 ├── README.md                              # Project description (this file)
-├── ss1.png                                # Menu Demo
-├── ss2.png                                # PEGI Feature Importance Demo
-└── ss3.png                                # ESRB Feature Importance Demo
+└── media                                  # Program  Demo
 ```
 
 ---
