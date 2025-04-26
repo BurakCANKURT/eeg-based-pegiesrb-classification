@@ -89,7 +89,7 @@ Use the **sidebar menu** to navigate between:
 ```
 ├── main.py                                # Streamlit app (visualization)
 ├── game_rating_classification.py          # Machine learning logic and model training
-├── model_results                          # Each feature's predicted visualization
+├── model_results                          # Each feature's importance visualization
 ├── 04-EEG-Based Game Rating Classification (PEGI & ESRB).xlsx  # Input data file
 ├── requirements.txt                       # Required Python packages
 ├── README.md                              # Project description (this file)
