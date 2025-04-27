@@ -30,7 +30,7 @@ The project also provides **feature importance visualizations** to highlight the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/eeg-game-rating-classification.git
+   git clone https://github.com/BurakCANKURT/eeg-game-rating-classification.git
    cd eeg-game-rating-classification
    ```
 
