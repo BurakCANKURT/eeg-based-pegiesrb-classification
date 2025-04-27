@@ -18,11 +18,16 @@ The project also provides **feature importance visualizations** to highlight the
 
 ## ⚙️ Technologies Used
 
-- 🐍 Python 3.x
-- 📊 Streamlit (for interactive dashboard)
-- 🌲 Scikit-learn (machine learning models)
-- 🧮 Pandas, NumPy (data manipulation)
-- 📉 Matplotlib (data visualization)
+| Technology                | Purpose                                               |
+|----------------------------|-------------------------------------------------------|
+| **Python 3.x**             | Core programming language for all scripts            |
+| **Scikit-learn**           | Machine learning models (Random Forest, KNN, Naive Bayes), training, evaluation, feature importance |
+| **Pandas**                 | Data preprocessing, Excel reading, DataFrame operations |
+| **NumPy**                  | Numerical operations and array handling              |
+| **Matplotlib**             | Visualizations (feature importance plots, data exploration) |
+| **Openpyxl**               | Reading Excel files (`.xlsx` format input dataset)    |
+| **Streamlit**              | Interactive web-based interface and result visualization |
+| **Streamlit-option-menu**  | Sidebar navigation and menu selection in the Streamlit app |
 
 ---
 
@@ -104,4 +109,13 @@ Use the **sidebar menu** to navigate between:
 - **Model training is not triggered from the Streamlit app**; only the PNG visualizations are shown.
 
 ---
+
+## 📌 What I Learned
+
+- Comparing multiple classification models (Random Forest, KNN, Naive Bayes) for EEG-based predictions.
+- Evaluating model performance and selecting the best algorithm automatically based on accuracy.
+- Understanding how EEG features contribute differently to PEGI and ESRB classifications.
+- Separating model training and result visualization phases for clean project structure.
+- Building an interactive dashboard with Streamlit for presenting pre-trained model outputs.
+
 
