@@ -95,7 +95,6 @@ Use the **sidebar menu** to navigate between:
 ├── main.py                                # Streamlit app (visualization)
 ├── game_rating_classification.py          # Machine learning logic and model training
 ├── model_results                          # Each feature's importance visualization
-├── 04-EEG-Based Game Rating Classification (PEGI & ESRB).xlsx  # Input data file
 ├── requirements.txt                       # Required Python packages
 ├── README.md                              # Project description (this file)
 └── media                                  # Program  Demo
@@ -109,7 +108,11 @@ Use the **sidebar menu** to navigate between:
 - **Model training is not triggered from the Streamlit app**; only the PNG visualizations are shown.
 
 ---
+##📄 Data Disclaimer:
+The datasets used in this project were provided by my university professor solely for educational purposes.
+These datasets are not publicly distributed and are used here for demonstration and academic showcase only.
 
+---
 ## 📌 What I Learned
 
 - Comparing multiple classification models (Random Forest, KNN, Naive Bayes) for EEG-based predictions.
@@ -117,5 +120,5 @@ Use the **sidebar menu** to navigate between:
 - Understanding how EEG features contribute differently to PEGI and ESRB classifications.
 - Separating model training and result visualization phases for clean project structure.
 - Building an interactive dashboard with Streamlit for presenting pre-trained model outputs.
-
+---
 
